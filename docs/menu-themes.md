@@ -31,6 +31,8 @@ First, Kando will look for menu-theme directories in your home directory:
 
 Next, Kando will look for menu-theme directories in the installation directory.
 For this, look for the `resources/app/.webpack/renderer/assets/menu-themes/` directory in the installation directory.
+> [!CAUTION]
+> On some platforms, using the installation directory to add themes may result in their permanent deletion during the update process. 
 
 If you are running Kando from the source code via `npm start`, it will look for themes in the `assets/menu-themes/` directory.
 
